@@ -29,7 +29,7 @@ class CatalogosCFDiSeeder extends Seeder
         ];
 
         foreach($archivos as $tabla => $archivo){
-            $archivo_csv = storage_path().'/app/seeds/'.$archivo;
+            $archivo_csv = storage_path().'/app/seeds/cfdi/'.$archivo;
             $query = sprintf("
                 LOAD DATA local INFILE '%s' 
                 INTO TABLE ".$tabla."
