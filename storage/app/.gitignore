@@ -2,3 +2,4 @@
 !public/
 !seeds/
 !.gitignore
+.DS_Store
