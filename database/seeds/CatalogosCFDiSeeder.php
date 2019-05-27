@@ -33,6 +33,7 @@ class CatalogosCFDiSeeder extends Seeder
             $query = sprintf("
                 LOAD DATA local INFILE '%s' 
                 INTO TABLE ".$tabla."
+                CHARACTER SET utf8 
                 FIELDS TERMINATED BY ',' 
                 OPTIONALLY ENCLOSED BY '\"' 
                 ESCAPED BY '\"' 

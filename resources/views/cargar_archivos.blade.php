@@ -17,7 +17,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <form id="formulario_nomina" action="/nomina/public/api/cargar_archivos" target="_blank" method="post" enctype="multipart/form-data" >
+                        <form id="formulario_nomina" action="{{url('api/cargar_archivos')}}" target="_blank" method="post" enctype="multipart/form-data" >
                             <div class="form-row">
                                 <div class="form-group col-2"> <label>Quincena</label> <input class="form-control" type="text" name="quincena" value="01"/> </div>
                                 <div class="form-group col-2"> <label>Año</label> <input class="form-control" type="text" name="anio" value="{{date('Y')}}"/> </div>
