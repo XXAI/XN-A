@@ -18,8 +18,7 @@ class CreateTrailersTable extends Migration
      *
      * @return void
      */
-    public function up()
-    {
+    public function up(){
         Schema::create($this->tableName, function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->string('rfc', 13)->nullable()->default(null);
@@ -36,16 +35,17 @@ class CreateTrailersTable extends Migration
             $table->string('nomprod', 11)->nullable()->default(null)->comment('Nombre Del Producto');
             $table->integer('numctrol')->nullable()->default(null)->comment('Número de control del Sistema');
 
-            $table->index(["numcheq"], 'trailer_numcheq');
-            $table->index(["anio"], 'trailer_anio');
-            $table->index(["tconcep"], 'trailer_tconcepto');
-            $table->index(["rfc"], 'trailer_rfc');
-            $table->index(["nomprod"], 'trailer_nomprod');
-            $table->index(["numctrol"], 'trailer_numctrol');
-            $table->index(["qna"], 'trailer_qna');
-            $table->index(["ptaant"], 'trailer_ptaant');
-            $table->index(["numemp"], 'trailer_numemp');
-            $table->index(["concepto"], 'trailer_concepto');
+            $table->index(["numcheq"]);
+            $table->index(["anio"]);
+            $table->index(["tconcep"]);
+            $table->index(["rfc"]);
+            $table->index(["nomprod"]);
+            $table->index(["numctrol"]);
+            $table->index(["qna"]);
+            $table->index(["ptaant"]);
+            $table->index(["numemp"]);
+            $table->index(["concepto"]);
+            
         });
     }
 
@@ -54,8 +54,7 @@ class CreateTrailersTable extends Migration
      *
      * @return void
      */
-     public function down()
-     {
+     public function down(){
        Schema::dropIfExists($this->tableName);
      }
 }

@@ -18,8 +18,7 @@ class CreateDatosTable extends Migration
      *
      * @return void
      */
-    public function up()
-    {
+    public function up(){
         Schema::create($this->tableName, function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->string('numemp', 10)->nullable()->default(null)->comment('Número De Empleado');
@@ -101,22 +100,22 @@ class CreateDatosTable extends Migration
             $table->integer('tipouni')->nullable()->default(null)->comment('Tipo De Unidad');
             $table->string('crespdes', 100)->nullable()->default(null)->comment('Descripcion Del Centro De Responsabilidad');
 
-            $table->index(["rfc"], 'trailer_rfc');
-            $table->index(["curp"], 'trailer_curp');
-            $table->index(["nombre"], 'trailer_nombre');
-            $table->index(["ur"], 'trailer_ur');
-            $table->index(["cr"], 'trailer_cr');
-            $table->index(["fpago"], 'trailer_fpago');
-            $table->index(["fpagoi"], 'trailer_fpagoi');
-            $table->index(["fpagof"], 'trailer_fpagof');
-            $table->index(["pqnai"], 'trailer_pqnai');
-            $table->index(["pqnaf"], 'trailer_pqnaf');
-            $table->index(["qnareal"], 'trailer_qnareal');
-            $table->index(["anioreal"], 'trailer_anioreal');
-            $table->index(["per"], 'trailer_per');
-            $table->index(["ded"], 'trailer_ded');
-            $table->index(["neto"], 'trailer_neto');
-            $table->index(["notrail"], 'trailer_notrail');
+            $table->index(["rfc"]);
+            $table->index(["curp"]);
+            $table->index(["nombre"]);
+            $table->index(["ur"]);
+            $table->index(["cr"]);
+            $table->index(["fpago"]);
+            $table->index(["fpagoi"]);
+            $table->index(["fpagof"]);
+            $table->index(["pqnai"]);
+            $table->index(["pqnaf"]);
+            $table->index(["qnareal"]);
+            $table->index(["anioreal"]);
+            $table->index(["per"]);
+            $table->index(["ded"]);
+            $table->index(["neto"]);
+            $table->index(["notrail"]);
         });
     }
 
@@ -125,8 +124,7 @@ class CreateDatosTable extends Migration
      *
      * @return void
      */
-     public function down()
-     {
+     public function down(){
        Schema::dropIfExists($this->tableName);
      }
 }

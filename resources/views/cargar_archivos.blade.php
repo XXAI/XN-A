@@ -19,9 +19,9 @@
                     <div class="col">
                         <form id="formulario_nomina" action="{{url('api/cargar_archivos')}}" target="_blank" method="post" enctype="multipart/form-data" >
                             <div class="form-row">
-                                <div class="form-group col-2"> <label>Quincena</label> <input class="form-control" type="text" name="quincena" value="01"/> </div>
+                                <div class="form-group col-2"> <label>Quincena</label> <input class="form-control" type="text" name="qna" value="01"/> </div>
                                 <div class="form-group col-2"> <label>Año</label> <input class="form-control" type="text" name="anio" value="{{date('Y')}}"/> </div>
-                                <div class="form-group col-4"> 
+                                <!--div class="form-group col-4"> 
                                     <label>Nomina</label> 
                                     <select name="identificador_nomina" class="form-control">
                                         <option value='sin_id' selected="selected">Seleccione una opcion </option>
@@ -32,17 +32,27 @@
                                         <option value='pac' >               PAC                 </option>
                                         <option value='san_agustin' >       San Agustin         </option>
                                     </select>
-                                </div>
+                                </div-->
                                 <div class="form-group col-4"> 
                                     <label>Tipo</label> 
-                                    <select name="tipo_producto" class="form-control">
-                                        <option value='sin_id' selected="selected">Seleccione una opcion </option>
-                                        <option value='ordinario' >         Ordinario           </option>
-                                        <option value='extraordinario' >    Extraordinario      </option>
-                                        <option value='reyes' >             Dia de Reyes        </option>
-                                        <option value='madres' >            Dia de las Madres   </option>
-                                        <option value='prima' >             Prima Vacacional    </option>
-                                        <option value='aguinaldo' >         Aguinaldo           </option>
+                                    <select name="nom_prod" class="form-control">
+                                        <option value='sin_id' selected="selected">Seleccione una opción </option>
+                                        <option value='PRDO' >          Ordinario                       </option>
+                                        <option value='PRDP' >          Pensión                         </option>
+                                        <option value='PRDE' >          Extraordinario                  </option>
+                                        <option value='PRDR' >          Retroactivo                     </option>
+                                        <option value='PRDDR' >         Dia de Reyes                    </option>
+                                        <option value='PRDPDR' >        Pensión Dia de Reyes            </option>
+                                        <option value='PRDDM' >         Dia de las Madres               </option>
+                                        <option value='PRDPDM' >        Pensión Dia de las Madres       </option>
+                                        <option value='PRDPV' >         Prima Vacacional                </option>
+                                        <option value='PRDPPV' >        Pensión Prima Vacacional        </option>
+                                        <option value='PRDPD' >         Prima Dominical                 </option>
+                                        <option value='PRDPPD' >        Pensión Prima Dominical         </option>
+                                        <option value='PRDAG' >         Aguinaldo                       </option>
+                                        <option value='PRDPAG' >        Pensión Aguinaldo               </option>
+                                        <option value='PRDTS' >         Trabajador de la Salud          </option>
+                                        <option value='PRDPTS' >        Pensión Trabajador de la Salud  </option>
                                     </select>
                                 </div>
                             </div>
