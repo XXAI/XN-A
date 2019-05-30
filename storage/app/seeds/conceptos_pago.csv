@@ -1,0 +1,272 @@
+id,tconcep,concepto,ptaant,partida,descripcion,11
+1,1,02,00,12201,SUELDO BASE  PERSONAL EVENTUAL                                                            ,90
+2,1,05,CO,12201,COMPLEMENTO HONORARIOS                                                                    ,90
+3,1,06,CG,15402,COMPENSACION GARANTIZADA                                                                  ,90
+4,1,07,00,11301,SUELDO BASE                                                                               ,90
+5,1,16,00,44106,COMPENSACION POR SERVICIOSDE CARACTER SOCIAL  PARA PASANTES EN SERVIVIO SOCIAL RAMA MEDIC ,90
+6,1,16,MR,12301,BECA MEDICOS RESIDENTES                                                                   ,90
+7,1,16,PI,44106,COMPENSACION DEL SEGURO DE VIDA ADICIONAL A PRESTADORES DE SERVICIO SOC E INTERNOS DE PR  ,90
+8,1,16,PS,44106,COMPENSACION POR SERVICIOSDE CARACTER SOCIAL BECA INTERINOS DE PREGRADO Y PSS ESTADOS     ,90
+9,1,17,00,15901,COMPENSACION POR SERVICIOSDE CARACTER SOCIAL  PARA PASANTES EN SERVICIO SOCIAL RAMA ADMINI,90
+10,1,19,TE,13301,PAGO POR TIEMPO EXTRAORDINARIO                                                            ,90
+11,1,24,BA,13202,AGUINALDO O GRATIFICACION DE FIN DE ANO PERSONAL DE BAJA                                  ,90
+12,1,24,BR,13202,GRATIFICACION DE FIN DE ANO A MEDICOS RESIDENTES BAJAS                                    ,90
+13,1,24,CG,13202,COMPLEMENTO DE AGUINALDO O GRATIFICACION DE FIN DE ANO  SOBRE COMPENSACION GARATIZADA     ,90
+14,1,24,GA,13202,AGUINALDO O GRATIFICACION DE FIN DE ANO PERSONAL ACTIVO BASE                              ,90
+15,1,24,GG,13202,COMPENSACION DE ISR POR AGUINALO O GRATIFICACION DE FIN DE ANO                            ,90
+16,1,24,MR,13202,GRATIFICACION DE FIN DE ANO A MEDICOS RESIDENTES ACTIVOS                                  ,90
+17,1,30,AR,13407,COMPENSACION ADICIONAL POR SERVICIOS ESPECIALES  ALTO RIESGO - RAMA MEDICA  PARAMEDICA Y G,90
+18,1,30,BR,13407,COMPENSACION ADICIONAL POR SERVICIOS ESPECIALES  BAJO RIESGO - RAMA MEDICA  PARAMEDICA Y G,90
+19,1,30,MR,13407,COMPENSACION ADICIONAL POR SERVICIOS ESPECIALES  MEDIANO RIESGO - RAMA MEDICA  PARAMEDICA ,90
+20,1,32,PD,13201,PRIMA DOMINICAL                                                                           ,90
+21,1,32,PV,13201,PRIMA VACACIONAL 1ER SEMESTRE                                                             ,90
+22,1,32,VD,13201,PRIMA VACACIONAL  2DO SEMESTRE                                                            ,90
+23,1,32,VV,13201,COMPENSACION DE IMPUESTO DE PRIMA VACACIONAL                                              ,90
+24,1,34,AR,13407,COMPENSACION POR SERVICIOS ESPECIALES  ALTO RIESGO - MEDICOS RESIDENTES                   ,90
+25,1,34,MR,13407,COMPENSACION POR SERVICIOS ESPECIALES  MEDIANO RIESGO - MEDICOS RESIDENTES                ,90
+26,1,36,MR,13411,COMPLEMENTO DE BECA A MEDICOS RESIDENTES                                                  ,90
+27,1,37,ES,17102,ESTIMULOS AL PERSONAL PREMIOS ESTIMULOS Y RECOMPENSAS CIVILES                             ,90
+28,1,37,PR,17102,COMPENSACION DE IMPUESTO POR PAGO DE ESTIMULOS  PREMIOS Y RECOMPENSAS CIVILES             ,90
+29,1,37,TP,15401,AYUDA DE TESIS                                                                            ,90
+30,1,37,TT,15401,COMPENSACION DE ISR TESIS                                                                 ,90
+31,1,37,MF,15901,MEDIDAS DE FIN DE ANO                                                                     ,90
+32,1,38,00,15403,AYUDA DE DESPENSA                                                                         ,90
+33,1,39,00,44106,MATERIAL DIDACTICO INTENOS DE PREGRADO Y MEDICOS PASANTES EN SERVICIO SOCIAL              ,90
+34,1,42,00,15901,ASIGNACION BRUTA                                                                          ,90
+35,1,44,00,15403,PREVISION SOCIAL MULTIPLE                                                                 ,90
+36,1,45,AL,15401,AYUDA POR CONCEPTO DE ANTEOJOS                                                            ,90
+37,1,45,AA,15401,COMPENSACION DE ISR POR CONCEPTO DE ANTEOJOS                                              ,90
+38,1,46,00,15403,AYUDA PARA SERVICIOS DE PASAJES                                                              ,93
+39,1,46,GA,44106,GRATIFICACION DE FIN DE ANO A INTERNOS DE PREGRADO Y PASANTES EN SERVICIO SOCIAL AREA MEDI,90
+40,1,55,AG,13410,AYUDA PARA GASTOS DE ACTUALIZACION                                               ,81
+41,1,56,AF,17102,ESTIMULOS A LA PRODUC Y CALIDAD A FAVOR DEL PERSONAL DE LA RAMA AFIN                      ,90
+42,1,56,EN,17102,ESTIMULOS A LA PRODUC Y CALIDAD A FAVOR DEL PERSONAL DE ENFERMERIA                        ,90
+43,1,56,MD,17102,ESTIMULOS A LA PRODUC Y CALIDAD A FAVOR DEL PERSONAL MEDICO                               ,90
+44,1,56,ON,17102,ESTIMULOS A LA PRODUC Y CALIDAD A FAVOR DEL PERSONAL DE ODONTOLOGIA                       ,90
+45,1,56,PC,17102,ESTIMULOS POR PRODUCTIVIDAD CIENTIFICA                                                    ,90
+46,1,56,PM,17102,ESTIMULOS A LA PRODUC Y CALIDAD A FAVOR DEL PERSONAL DE LA RAMA PARAMEDICA                ,90
+47,1,56,PS,17102,ESTIMULOS A LA PRODUC Y CALIDAD A FAVOR DEL PERSONAL PSICOLOGOS                           ,90
+48,1,56,QM,17102,ESTIMULOS A LA PRODUC Y CALIDAD A FAVOR DEL PERSONAL QUIMICO                              ,90
+49,1,56,RA,17102,ESTIMULOS A LA PRODUC Y CALIDAD A FAVOR DEL PERSONAL DE RADIOLOGIA                        ,90
+50,1,56,TS,17102,ESTIMULOS A LA PRODUC Y CALIDAD A FAVOR DEL PERSONAL DE TRABAJO SOCIAL                    ,90
+51,1,56,OD,17102,ESTIMULOS A LA PRODUC Y CALIDAD A FAVOR DEL PERSONAL DE OTRAS DISCIPLINAS                 ,90
+52,1,57,LL,15401,COMPENSACION DE IMPUESTO POR TRAMITE DE LICENCIA DE MANEJO                                ,90
+53,1,57,LM,15401,TRAMITE DE LICENCIA DE MANEJO                                                             ,90
+54,1,59,DT,15401,DIA DEL TRABAJADOR                                                                        ,90
+55,1,59,TT,15401,COMPENSACION DE IMPUESTO DIA DEL TRABAJADOR                                               ,90
+56,1,62,00,15901,PENSION ALIMENTICIA                                                                       ,90
+57,1,62,01,15901,PENSION ALIMENTICIA 1ERA PENSIONADA                                                       ,90
+58,1,62,02,15901,PENSION ALIMENTICIA 2DA PENSIONADA                                                        ,90
+59,1,62,03,15901,PENSION ALIMENTICIA 3RA PENSIONADA                                                        ,90
+60,1,62,04,15901,PENSION ALIMENTICIA 4TA PENSIONADA                                                        ,90
+61,1,62,05,15901,PENSION ALIMENTICIA 5TA PENSIONADA                                                        ,90
+62,1,62,IA,15901,PENSION ALIMENTICIA IMPORTE ADICIONAL                                                     ,90
+63,1,62,RC,15901,PENSION IMPORTE RETROACTIVO POR CALCULO                                                   ,90
+64,1,62,RM,15901,PENSION IMPORTE RETROACTIVO POR MOVIMIENTO                                                ,90
+65,1,69,AN,17102,ESTIMULOS ANUALES POR ASISTENCIA Y PERMANENCIA EN EL TRABAJO                              ,90
+66,1,69,TR,17102,ESTIMULOS TRIMESTRALES POR PUNTUALIDAD Y ASISTENCIA                                       ,90
+67,1,73,DM,15401,DIA DE LAS MADRES                                                                         ,90
+68,1,73,DR,15401,DIA DE REYES                                                                              ,90
+69,1,73,MM,15401,COMPENSACION DE IMPUESTO DIA DE LAS MADRES                                                ,90
+70,1,73,RR,15401,COMPENSACION DE IMPUESTO DIA DE REYES                                                     ,90
+71,1,73,GG,15401,COMPENSACION DE IMPUESTO DIA DE REYES                                                     ,90
+72,1,75,AP,17102,ESTIMULOS POR ASISTENCIA PERFECTA                                                         ,90
+73,1,76,81,14404,SEGURO DE SEPARACION INDIVIDUALIZADO                                                      ,90
+74,1,A1,A5,13101,PRIMA QUINQUENAL POR 5 ANOS DE SERVICIOS EFECTIVOS PRESTADOS EN EL GOB FED                ,90
+75,1,A1,00,13101,PRIMA QUINQUENAL POR 5 ANOS DE SERVICIOS EFECTIVOS PRESTADOS EN EL GOB FED                ,90
+76,1,A2,00,13101,PRIMA QUINQUENAL POR 10 ANOS DE SERVICIOS EFECTIVOS PRESTADOS EN EL GOB FED               ,90
+77,1,A3,00,13101,PRIMA QUINQUENAL POR 15 ANOS DE SERVICIOS EFECTIVOS PRESTADOS EN EL GOB FED               ,90
+78,1,A4,00,13101,PRIMA QUINQUENAL POR 20 ANOS DE SERVICIOS EFECTIVOS PRESTADOS EN EL GOB FED               ,90
+79,1,A5,00,13101,PRIMA QUINQUENAL POR 25 ANOS DE SERVICIOS EFECTIVOS PRESTADOS EN EL GOB FED               ,90
+80,1,AX,00,13101,PRIMA QUINQUENAL                                                                          ,90
+81,1,E4,00,15403,COMPENSACION POR LABORAR EN COMUNIDADES DE BAJO DESARROLLO EN LOS ESTADOS                 ,90
+82,2,01,00,00000,IMPUESTO SOBRE LA RENTA                                                                   ,90
+83,2,01,02,00000,IMPUESTO SOBRE LA RENTA PERSONAL EVENTUAL                                                 ,90
+84,2,01,32,00000,ISR PRIMA VACACIONAL 1ER SEMESTRE                                                         ,90
+85,2,01,52,00000,ISR LIQUIDACION POR INDEMNIZACIONES Y POR SUELDOS Y SALARIOS CAIDOS                       ,90
+86,2,01,56,00000,ISR ESTIMULOS ENFERMERAS MEDICOS ODONTOLOGOS E INVESTIGDORES                              ,90
+87,2,01,76,00000,ISR DEL SEGURO DE SEPARACION INDIVIDUALIZADO                                              ,90
+88,2,01,AL,00000,ISR AYUDA POR ANTEOJOS                                                                    ,90
+89,2,01,AN,00000,ISR POR ESTIMULO ANUAL                                                                    ,90
+90,2,01,AP,00000,ISR POR ESTIMULO DE ASISTENCIA PERFECTA                                                   ,90
+91,2,01,DM,00000,ISR DIA DE LAS MADRES                                                                     ,90
+92,2,01,DR,00000,ISR DIA DE REYES                                                                          ,90
+93,2,01,DT,00000,ISR DIA DEL TRABAJADOR                                                                    ,90
+94,2,01,MM,00000,ISR DIA DE LAS MADRES                                                                     ,90
+95,2,01,RR,00000,ISR DIA DE REYES                                                                          ,90
+96,2,01,MF,00000,ISR MEDIDAS DE FIN DE AÑO,25
+97,2,01,EA,00000,ISR ESTIMULO POR ANTIGUEDAD                                                               ,90
+98,2,01,ES,00000,ISR PREMIOS ESTIMULOS Y RECOMPENSAS CIVILES                                               ,90
+99,2,01,GA,00000,ISR AGUINALDO O GRATIFICACION DE FIN DE ANO                                               ,90
+100,2,01,LM,00000,ISR LICENCIA DE MANEJO                                                                    ,90
+101,2,01,MD,00000,ISR ESTIMULOS MEDICOS                                                                     ,90
+102,2,01,MR,00000,ISR MEDICOS RESIDENTES                                                                    ,90
+103,2,01,ON,00000,ISR ESTIMULOS ODONTOLOGOS                                                                 ,90
+104,2,01,PD,00000,ISR PRIMA DOMINICAL                                                                       ,90
+105,2,01,PS,00000,ISR ESTIMULOS AL PERSONAL - PSICOLOGOS                                                    ,90
+106,2,01,PV,00000,ISR PRIMA VACACIONAL  2DO SEMESTRE                                                        ,90
+107,2,01,QM,00000,ISR ESTIMULOS QUIMICOS                                                                    ,90
+108,2,01,SA,00000,ISR POR FALTAS Y SANCIONES ADMINISTRATIVAS                                                ,90
+109,2,01,SE,00000,ISR POR FALTAS Y SANCIONES ADMINISTRATIVAS                                                ,90
+110,2,01,TE,00000,ISR TIEMPO EXTRA                                                                          ,90
+111,2,01,TP,00000,ISR AYUDA DE TESIS                                                                        ,90
+112,2,01,TR,00000,ISR POR ESTIMULO TRIMESTRAL                                                               ,90
+113,2,02,SI,00000,SEGURO DE INVALIDEZ Y VIDA ISSSTE                                                         ,90
+114,2,02,SR,00000,SEGURO DE RETIRO ISSSTE                                                                   ,90
+115,2,02,SS,00000,SERVICIOS SOCIALES Y CULTURALES ISSSTE                                                    ,90
+116,2,04,SP,00000,SEGURO DE SALUD ISSSTE                                                                    ,90
+117,2,04,SS,00000,SEGURO DE SALUD ISSSTE                                                                    ,90
+118,2,10,00,00000,RENTAS ISSSTE                                                                             ,90
+119,2,17,00,00000,RETARDOS Y FALTAS DE ASISTENCIA ANO CORRIENTE                                             ,90
+120,2,18,00,00000,RETARDOS Y FALTAS DE ASISTENCIA ANO ANTERIOR                                              ,90
+121,2,19,00,00000,REINTEGRO A PARTIDAS PRESUPUESTALES ANO CORRIENTE,49
+122,2,20,00,00000,REINTEGROS A PARTIDAS PRESUPUESTALES ANO ANTERIOR                                         ,90
+123,2,20,24,00000,REINTEGROS A PARTIDAS PRESUPUESTALES ANO ANTERIOR                                         ,90
+124,2,21,21,00000,RESPONSABILIDAD FONAC CICLO ACTUAL                                                        ,90
+125,2,21,FA,00000,FONDO DE AHORRO CAPITALIZABLE                                                             ,90
+126,2,21,FC,00000,DEVOLUCION DEL FONAC DEL CICLO ACTUAL                                                     ,90
+127,2,21,FR,00000,RESPONSABILIDAD FONAC CICLO ANTERIOR                                                      ,90
+128,2,21,FN,00000,DEVOLUCION DEL FONAC DEL CICLO ANTERIOR                                                   ,90
+129,2,29,00,00000,RESPONSABILIDADES                                                                         ,90
+130,2,29,24,00000,RESPONSABILIDADES AGUINALDO O GRATIFICACION DE FIN DE ANO                                 ,90
+131,2,29,32,00000,RESPONSABILIDADES PRIMA VACACIONAL                                                        ,90
+132,2,29,46,00000,RESPONSABILIDADES AYUDA DE SERVICIOS                                                      ,90
+133,2,29,56,00000,RESPONSABILIDADES ESTIMULOS                                                               ,90
+134,2,29,ES,00000,EMBARGO DE SALARIO POR ORDEN JUDICIAL                                                     ,90
+135,2,29,AN,00000,RESPONSABILIDADES ESTIMULO ANUAL                                                          ,90
+136,2,29,AP,00000,RESPONSABILIDADES ASISTENCIA PERFECTA                                                     ,90
+137,2,29,LM,00000,RESPONSABILIDADES POR LICENCIAS MEDICAS                                                   ,90
+138,2,29,RT,00000,RESPONSABILIDADES RETROACTIVO                                                             ,90
+139,2,29,AS,00000,REINTEGRO DE AHORRO SOLIDARIO                                                             ,90
+140,2,34,00,00000,SEGURO DE RESPONSABILIDAD PROFESIONAL PARA PERSONAL MEDICOS Y DE ENFERMERIA               ,90
+141,2,46,AF,00000,SERVICIOS Y ARTICULOS FINANCIADOS DE TUXTLA  S A  DE C V                                  ,90
+142,2,46,AL,00000,ALFIN                                                                                     ,90
+143,2,46,AM,00000,CREDITO AMIGO                                                                             ,90
+144,2,46,AT,00000,ATTENDO                                                                                   ,90
+145,2,46,CA,00000,CAJA DE AHORRO SINDICATO                                                                  ,90
+146,2,46,CB,00000,COMERCIALIZADORA DE BIENES Y SERVICIOS PARA MI  S A  DE C V                               ,90
+147,2,46,CC,00000,CURIEL                                                                                    ,90
+148,2,46,CE,00000,OPERACION Y AUDITORIA  S A  de C V   SOFOM  E N R                                         ,90
+149,2,46,CF,00000,CREDIFIEL                                                                                 ,90
+150,2,46,CH,00000,FONDO ACH SA DE CV ADEX                                                                   ,90
+151,2,46,CP,00000,PRETMEX  S  A  DE C V   SOFORM ENR                                                        ,90
+152,2,46,CR,00000,PRESTAMOS CAJA DE AHORRO                                                                  ,90
+153,2,46,CT,00000,ASESORIA CXTI CHIAPAS                                                                     ,90
+154,2,46,CV,00000,TU CREDITO SALVADOR                                                                       ,90
+155,2,46,CX,00000,CREDIAXIS                                                                                 ,90
+156,2,46,DM,00000,DISTRIBUCIONES MUEBLERAS  S A  DE C V    ORCE  POPULARES  STANZA                          ,90
+157,2,46,DN,00000,CREDIGANAS                                                                                ,90
+158,2,46,DP,00000,CREDIGANAS DESARROLADORA DE NEGOCIOS PROGRESA                                             ,90
+159,2,46,DX,00000,DIMEX                                                                                     ,90
+160,2,46,EC,00000,EMPRENDEDORES TU COMUNIDAD SA DE CV TU NOMINA PLUS                                        ,90
+161,2,46,ET,00000,EDICIONES TRATADOS Y EQUIPOS S A DE C V ETESA                                             ,90
+162,2,46,EX,00000,CREDITO EXPRESS                                                                           ,90
+163,2,46,FI,00000,FINMART  S  A  DE C  V   CREDIGANAS                                                       ,90
+164,2,46,FM,00000,FINANCIERA MEXICO                                                                         ,90
+165,2,46,FN,00000,CREDITO FINOMINA                                                                          ,90
+166,2,46,FO,00000,CREDITO FONACOT                                                                           ,90
+167,2,46,FP,00000,FOMEPADE                                                                                  ,90
+168,2,46,FX,00000,FINAXIAL  S  A  DE C  V   CREDIGANAS                                                      ,90
+169,2,46,ID,00000,INTERCAMBIO Y DESARROLLO DE MERCADOS S A DE C V                                           ,90
+170,2,46,IN,00000,INNOVACREDIT SOFOM ENR   INNODI SURESTE S A  DE C V                                       ,90
+171,2,46,JE,00000,SERVICIOS FUNERARIOS JARDINES DEL EDEN                                                    ,90
+172,2,46,JM,00000,JUICIO MERCANTIL                                                                          ,90
+173,2,46,KD,00000,KONDINERO S A  DE C V                                                                     ,90
+174,2,46,LS,00000,CREDITO LIBERTAD Y SERVICIOS                                                              ,90
+175,2,46,MC,00000,FONDEADORA GRUPO GUERSALA SAPI DE C V                                                     ,90
+176,2,46,MN,00000,MULTIPLICA TU NOMINA                                                                      ,90
+177,2,46,MP,00000,MENOS PAGOS                                                                               ,90
+178,2,46,OC,00000,ORGANIZACION CULTURAL CHIAPAS                                                             ,90
+179,2,46,PF,00000,PROFINANSE                                                                                ,90
+180,2,46,PQ,00000,PRE15NA                                                                                   ,90
+181,2,46,PR,00000,PRESTAMELO                                                                                ,90
+182,2,46,PS,00000,FINANCIERA DE PIEDAD SOCIAL  S A  DE C V    SOFOM  E  N  R                                ,90
+183,2,46,SE,00000,GRUPO SIEMPRE EFECTIVO                                                                    ,90
+184,2,46,SP,00000,SEGUROS PROFEMM INBURSA                                                                   ,90
+185,2,46,TC,00000,TOTAL CREDIT                                                                              ,90
+186,2,46,WA,00000,PRESTAMOS VIVA WAC MEXICO                                                                 ,90
+187,2,47,FN,00000,CREDITO FINOMINA                                                                          ,90
+188,2,48,FN,00000,CREDITO FINOMINA                                                                          ,90
+189,2,49,FN,00000,CREDITO FINOMINA                                                                          ,90
+190,2,50,FN,00000,CREDITO FINOMINA                                                                          ,90
+191,2,51,FN,00000,CREDITO FINOMINA                                                                          ,90
+192,2,52,FN,00000,CREDITO FINOMINA                                                                          ,90
+193,2,53,FN,00000,CREDITO FINOMINA                                                                          ,90
+194,2,54,FN,00000,CREDITO FINOMINA                                                                          ,90
+195,2,55,FN,00000,CREDITO FINOMINA                                                                          ,90
+196,2,56,FN,00000,CREDITO FINOMINA                                                                          ,90
+197,2,57,FN,00000,CREDITO FINOMINA                                                                          ,90
+198,2,58,FN,00000,CREDITO FINOMINA                                                                          ,90
+199,2,59,FN,00000,CREDITO FINOMINA                                                                          ,90
+200,2,60,FN,00000,CREDITO FINOMINA                                                                          ,90
+201,2,61,FN,00000,CREDITO FINOMINA                                                                          ,90
+202,2,62,FN,00000,CREDITO FINOMINA                                                                          ,90
+203,2,63,FN,00000,CREDITO FINOMINA                                                                          ,90
+204,2,64,FN,00000,CREDITO FINOMINA                                                                          ,90
+205,2,65,FN,00000,CREDITO FINOMINA                                                                          ,90
+206,2,66,FN,00000,CREDITO FINOMINA                                                                          ,90
+207,2,67,FN,00000,CREDITO FINOMINA                                                                          ,90
+208,2,68,FN,00000,CREDITO FINOMINA                                                                          ,90
+209,2,69,FN,00000,CREDITO FINOMINA                                                                          ,90
+210,2,70,FN,00000,CREDITO FINOMINA                                                                          ,90
+211,2,71,FN,00000,CREDITO FINOMINA                                                                          ,90
+212,2,72,FN,00000,CREDITO FINOMINA                                                                          ,90
+213,2,73,FN,00000,CREDITO FINOMINA                                                                          ,90
+214,2,74,FN,00000,CREDITO FINOMINA                                                                          ,90
+215,2,75,FN,00000,CREDITO FINOMINA                                                                          ,90
+216,2,76,FN,00000,CREDITO FINOMINA                                                                          ,90
+217,2,77,FN,00000,CREDITO FINOMINA                                                                          ,90
+218,2,78,FN,00000,CREDITO FINOMINA                                                                          ,90
+219,2,50,00,00000,POTENCIACION DEL 4 13 PORC DEL SEGURO INSTITUCIONAL DE VIDA METLIFE MEXICO                ,90
+220,2,50,13,00000,POTENCIACION DEL 4 13 PORC DEL SEGURO INSTITUCIONAL DE VIDA METLIFE MEXICO                ,90
+221,2,50,37,00000,POTENCIACION DEL 3 37 DEL SEGURO INSTITUCIONAL DE VIDA METLIFE MEXICO                     ,90
+222,2,50,65,00000,POTENCIACION DEL 1 65 DEL SEGURO INSTITUCIONAL DE VIDA METLIFE MEXICO                     ,90
+223,2,50,76,00000,POTENCIACION DEL 2 76 PORC DEL SEGURO INSTITUCIONAL DE VIDA METLIFE MEXICO                ,90
+224,2,50,96,00000,POTENCIACION DEL 4 96 DEL SEGURO INSTITUCIONAL DE VIDA METLIFE MEXICO                     ,90
+225,2,50,98,00000,POTENCIACION DEL 1 98 DEL SEGURO INSTITUCIONAL DE VIDA METLIFE MEXICO                     ,90
+226,2,51,00,00000,SEGURO DE VIDA INDIVIDUAL METLIFE MEXICO                                                  ,90
+227,2,51,ML,00000,SEGURO DE VIDA INDIVIDUAL METLIFE MEXICO                                                  ,90
+228,2,54,PI,00000,SEGURO DE VIDA PARA PRESTADORES DE SERVICIO SOCIAL                                        ,90
+229,2,55,FP,00000,AMORTIZACION FOVISSSTE SOBRE PRESTAMOS ESPECIALES FOVIPESOS FOVIPESOS                     ,90
+230,2,56,00,00000,AMORTIZACION FOVISSSTE SOBRE PRESTAMOS ESPECIALES                                         ,90
+231,2,57,00,00000,SEGURO DE VIDA ADICIONAL METLIFE MEXICO                                                   ,90
+232,2,58,00,00000,CUOTAS SINDICALES                                                                         ,90
+233,2,58,52,00000,CUOTAS SINDICALES SALARIOS CAIDOS                                                         ,90
+234,2,62,00,00000,PENSION ALIMENTICIA                                                                       ,90
+235,2,62,DE,00000,PENSION ALIMENTICIA                                                                       ,90
+236,2,62,01,00000,PENSION ALIMENTICIA 1ER BENEFICIARIO                                                      ,90
+237,2,62,02,00000,PENSION ALIMENTICIA 2DO BENEFICIARIO                                                      ,90
+238,2,62,03,00000,PENSION ALIMENTICIA 3ER BENEFICIARIO                                                      ,90
+239,2,62,04,00000,PENSION ALIMENTICIA 4TO BENEFICIARIO                                                      ,90
+240,2,62,05,00000,PENSION ALIMENTICIA 5TO BENEFICIARIO                                                      ,90
+241,2,62,IA,00000,PENSION IMPORTE ADICIONAL                                                                 ,90
+242,2,62,CG,00000,PENSION DE COMPENSACION GARANTIZADA                                                       ,90
+243,2,62,RC,00000,PENSION IMPORTE DE RETROACTIVO POR CALCULO                                                ,90
+244,2,62,RM,00000,IMPORTE DE RETROACTIVO POR MOVIMIENTO                                                     ,90
+245,2,62,PV,00000,PENSION PRIMA VACACIONAL                                                                  ,90
+246,2,64,00,00000,AMORTIZACION FOVISSSTE S M                                                                ,90
+247,2,64,05,00000,AMORTIZACION FOVISSSTE S M 5 PORC                                                         ,90
+248,2,64,08,00000,AMORTIZACION FOVISSSTE S M 8 PORC                                                         ,90
+249,2,64,10,00000,AMORTIZACION FOVISSSTE S M 10 PORC                                                        ,90
+250,2,64,11,00000,AMORTIZACION FOVISSSTE S M 11 PORC                                                        ,90
+251,2,64,15,00000,AMORTIZACION FOVISSSTE S M 15 PORC                                                        ,90
+252,2,64,20,00000,AMORTIZACION FOVISSSTE S M 20 PORC                                                        ,90
+253,2,64,28,00000,AMORTIZACION FOVISSSTE S M 28 PORC                                                        ,90
+254,2,64,30,00000,AMORTIZACION FOVISSSTE S M 30 PORC                                                        ,90
+255,2,64,33,00000,AMORTIZACION FOVISSSTE S M 33 PORC                                                        ,90
+256,2,64,40,00000,AMORTIZACION FOVISSSTE S M 40 PORC                                                        ,90
+257,2,64,42,00000,AMORTIZACION FOVISSSTE S M 42 PORC                                                        ,90
+258,2,64,50,00000,AMORTIZACION FOVISSSTE S M 50 PORC                                                        ,90
+259,2,65,00,00000,SEGURO DE DANOS FOVISSSTE                                                                 ,90
+260,2,70,00,00000,FONDO DE AHORRO PARA AUXILIO DE DEFUNCION                                                 ,90
+261,2,70,52,00000,FONDO DE AHORRO PARA AUXILIO DE DEFUNCION                                                 ,90
+262,2,75,00,00000,SEGURO DE GASTOS MEDICOS MAYORES METLIFE MEXICO                                           ,90
+263,2,77,00,00000,SEGURO COLECTIVO DE RETIRO                                                                ,90
+264,2,77,52,00000,SEGURO COLECTIVO DE RETIRO                                                                ,90
+265,2,77,52,00000,SEGURO COLECTIVO DE RETIRO SALARIOS CAIDOS                                                ,90
+266,2,AS,10,00000,AHORRO SOLIDARIO DE PENSIONES ISSSTE 1 00 PORC                                            ,90
+267,2,AS,20,00000,AHORRO SOLIDARIO DE PENSIONES ISSSTE 2 00 PORC                                            ,90
+268,3,03,00,00000,PRESTAMOS A CORTO PLAZO DEL ISSSTE                                                        ,90
+269,3,08,00,00000,PRESTAMOS ADICIONALES ISSSTE                                                              ,90
+270,4,AS,10,00000,AHORRO SOLIDARIO DE PENSIONES ISSSTE 1 00 PORC APORTACION PATRONAL                        ,90
+271,4,AS,20,00000,AHORRO SOLIDARIO DE PENSIONES ISSSTE 2 00 PORC APORTACION PATRONAL                        ,90
