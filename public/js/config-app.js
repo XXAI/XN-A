@@ -1,0 +1,1 @@
+var api_url = '/nomina/public/api/';

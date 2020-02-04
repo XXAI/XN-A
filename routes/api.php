@@ -13,4 +13,11 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::get('/signin','API\Auth\LoginController@doLogin');
+Route::get('/perfil','API\Auth\PerfilController');
+
 Route::post('/cargar_archivos', 'CargarArchivosController@cargarArchivoNomina');
+
+Route::get('/generar_layouts/{$batch}', 'GenerarLayoutsController@generarPorBatch');
+
+Route::apiResource('/batch','API\BatchController');

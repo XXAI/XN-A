@@ -13,15 +13,19 @@ class CreateCfdiTiposPercepcion extends Migration
      */
     public function up()
     {
-        Schema::create('cfdi_tipos_percepcion', function (Blueprint $table) {
-            $table->char('id',3);
-            $table->char('descripcion', 255);
+        Schema::create('cfdi_tipos_concepto_pago', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->char('tipo_concepto',1)->nullable()->default(null)->comment('Tipo: P->percepción o D->deducción');
+            $table->char('clave',3);
+            $table->string('descripcion', 255);
             $table->date('fecha_inicio_vigencia');
             $table->date('fecha_fin_vigencia')->nullable();
             $table->softDeletes();
             $table->timestamps();
 
-            $table->primary('id');
+            $table->index(["tipo_concepto"]);
+            $table->index(["clave"]);
+            $table->index(["descripcion"]);
         });
     }
 
@@ -32,6 +36,6 @@ class CreateCfdiTiposPercepcion extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('cfdi_tipos_percepcion');
+        Schema::dropIfExists('cfdi_tipos_concepto_pago');
     }
 }

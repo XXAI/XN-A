@@ -16,6 +16,7 @@ class CreateConceptosPago extends Migration
         Schema::create('conceptos_pago', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->integer('tconcep')->nullable()->default(null)->comment('Tipo');
+            $table->char('tipo_concepto',1)->nullable()->default(null)->comment('Tipo: P->percepción o D->deducción');
             $table->string('concepto', 2)->nullable()->default(null);
             $table->string('ptaant', 2)->nullable()->default(null)->comment('Partida antecedente\\n');
             $table->char('partida', 5)->nullable();

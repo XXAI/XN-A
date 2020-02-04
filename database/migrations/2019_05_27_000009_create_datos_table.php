@@ -82,7 +82,6 @@ class CreateDatosTable extends Migration
             $table->string('nomprod', 11)->nullable()->default(null)->comment('Nombre Del Producto');
             $table->integer('numctrol')->nullable()->default(null)->comment('Número De Control Del Sistema');
             $table->string('numcheq', 9)->nullable()->default(null)->comment('Numero De Cheque');
-            $table->integer('consecutivo')->nullable()->default(null);
             $table->string('digver', 1)->nullable()->default(null)->comment('Digito Verificador');
             $table->integer('jornada')->nullable()->default(null)->comment('Jornada De Trabajo');
             $table->string('diasp', 2)->nullable()->default(null)->comment('Número De Dias De Prima Dominical');
@@ -116,6 +115,7 @@ class CreateDatosTable extends Migration
             $table->index(["ded"]);
             $table->index(["neto"]);
             $table->index(["notrail"]);
+            $table->index(["clues"]);
         });
     }
 

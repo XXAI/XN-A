@@ -11,7 +11,7 @@ use App\Http\Requests;
 use Illuminate\Support\Facades\Input;
 use \Excel;
 use \Validator,\Hash, \Response, \DB;
-use \App\TRA, \App\DAT;
+use \App\Models\Trailer, \App\Models\Dato;
 use \App\Models\CargaArchivo;
 
 use XBase\Table;
@@ -56,7 +56,7 @@ class CargarArchivosController extends Controller
             DB::connection()->getPdo()->beginTransaction();
             $carga_archivos = CargaArchivo::create(['nombre_archivo_tra'=>$archivo_tra->getClientOriginalName(),'nombre_archivo_dat'=>$archivo_dat->getClientOriginalName(),'qnareal'=>$request->get('qna'),'anioreal'=>$request->get('anio'),'nomprod'=>$request->get('nom_prod')]);
             
-            /*===================================================================  Comienza carga del archivo TRA  ==============================================================================*/
+            /*===================================================================  Comienza: carga del archivo TRA  ==============================================================================*/
             $type = finfo_file($finfo, $archivo_tra); 
             $nombre_archivo_tra = 'ARCHIVOTRA'.$fechahora;
 
@@ -72,18 +72,18 @@ class CargarArchivosController extends Controller
                     OPTIONALLY ENCLOSED BY '\"' 
                     ESCAPED BY '\"' 
                     LINES TERMINATED BY '\\n' 
-                    SET batch = %d, qnareal = '%s', anioreal = '%s'
+                    SET batch = %d, qnareal = '%s', anioreal = '%s', llave_dato = CONCAT(batch,numctrol)
                     ", addslashes($tra),$carga_archivos->batch, $carga_archivos->qnareal, $carga_archivos->anioreal);
                 DB::connection()->getPdo()->exec($query);
 
-                $total_datos_tra = TRA::where('batch',$carga_archivos->batch)->count();
+                $total_datos_tra = Trailer::where('batch',$carga_archivos->batch)->count();
             }else{
                 throw new \Exception("El archivo TRA no es texto plano", 1);
             }
             unlink($destinationPath . $nombre_archivo_tra.".tra");
-            /*===================================================================  Termina carga del archivo TRA  ==============================================================================*/
+            /*===================================================================  Termina: carga del archivo TRA  ==============================================================================*/
 
-            /*===================================================================  Comienza carga del archivo DAT  ==============================================================================*/
+            /*===================================================================  Comienza: carga del archivo DAT  ==============================================================================*/
             $type = finfo_file($finfo, $archivo_dat); 
             $nombre_archivo_dat = 'ARCHIVODAT'.$fechahora;
 
@@ -99,16 +99,16 @@ class CargarArchivosController extends Controller
                     OPTIONALLY ENCLOSED BY '\"' 
                     ESCAPED BY '\"' 
                     LINES TERMINATED BY '\\n' 
-                    SET batch = %d
+                    SET batch = %d, llave = CONCAT(batch,numctrol)
                     ", addslashes($dat),$carga_archivos->batch);
                 DB::connection()->getPdo()->exec($query);
 
-                $total_datos_dat = DAT::where('batch',$carga_archivos->batch)->count();
+                $total_datos_dat = Dato::where('batch',$carga_archivos->batch)->count();
             }else{
                 throw new \Exception("El archivo DAT no es texto plano", 1);
             }
             unlink($destinationPath . $nombre_archivo_dat.".dat");
-            /*===================================================================  Termina carga del archivo DAT  ==============================================================================*/
+            /*===================================================================  Termina: carga del archivo DAT  ==============================================================================*/
 
             DB::connection()->getPdo()->commit();
             //return response()->json(['archivos' => [$archivo_tra, $archivo_dat]], HttpResponse::HTTP_OK);
@@ -125,97 +125,4 @@ class CargarArchivosController extends Controller
             return response()->json(['error' => $e->getMessage(),'line'=>$e->getLine()], HttpResponse::HTTP_CONFLICT);
         }
     }
-    /*
-    public function cargarDatosTRA($archivo){
-        try{
-            $finfo = finfo_open(FILEINFO_MIME_TYPE); 
-            
-            $type = finfo_file($finfo, $archivo); 
-
-            $fechahora = date("d").date("m").date("Y").date("H").date("i").date("s");
-
-            $nombreArchivo = 'ARCHIVOTRA'.$fechahora;
-
-            $idInsertado ='';
-            $numeroRegistros = '';
-
-            if($type == "text/plain"){//Si el Mime coincide con CSV
-                $destinationPath = storage_path().'/archivostra/';
-                $upload_success = $archivo->move($destinationPath, $nombreArchivo.".tra");
-                $tra = $destinationPath . $nombreArchivo.".tra";
-
-                DB::connection()->getPdo()->beginTransaction();
-
-                $query = sprintf("
-                    LOAD DATA local INFILE '%s' 
-                    INTO TABLE trailers 
-                    CHARACTER SET latin1 
-                    FIELDS TERMINATED BY '|' 
-                    OPTIONALLY ENCLOSED BY '\"' 
-                    ESCAPED BY '\"' 
-                    LINES TERMINATED BY '\\n' 
-                    ", addslashes($tra));
-                DB::connection()->getPdo()->exec($query);
-                DB::connection()->getPdo()->commit();
-
-                //SET nomina='%s', tipo_nomina='%s'
-                //, $identificador_nomina, $tipo_nomina
-
-                //$registros_tabla = \App\TRA::where('nomina',$identificador_nomina)->count();
-                $registros_tabla = \App\TRA::count();
-
-                return ['status'=>true, 'total_regitros_tabla'=>$registros_tabla];
-            }
-        }catch(\Exception $e){
-            DB::connection()->getPdo()->rollback();
-            return ['status'=>false, 'error' => $e->getMessage(), 'linea'=>$e->getLine()];
-        }
-    }
-
-    public function cargarDatosDAT($archivo){
-        try{
-            $finfo = finfo_open(FILEINFO_MIME_TYPE); 
-            
-            $type = finfo_file($finfo, $archivo); 
-
-            $fechahora = date("d").date("m").date("Y").date("H").date("i").date("s");
-
-            $nombreArchivo = 'ARCHIVODAT'.$fechahora;
-
-            $idInsertado ='';
-            $numeroRegistros = '';
-
-            if($type == "text/plain"){//Si el Mime coincide con CSV
-                $destinationPath = storage_path().'/archivosdat/';
-                $upload_success = $archivo->move($destinationPath, $nombreArchivo.".dat");
-                $dat = $destinationPath . $nombreArchivo.".dat";
-
-                DB::connection()->getPdo()->beginTransaction();
-
-                $query = sprintf("
-                    LOAD DATA local INFILE '%s' 
-                    INTO TABLE datos 
-                    CHARACTER SET latin1 
-                    FIELDS TERMINATED BY '|' 
-                    OPTIONALLY ENCLOSED BY '\"' 
-                    ESCAPED BY '\"' 
-                    LINES TERMINATED BY '\\n' 
-                    ", addslashes($dat));
-                DB::connection()->getPdo()->exec($query);
-                DB::connection()->getPdo()->commit();
-
-                //SET nomina='%s', tipo_nomina='%s'
-                //, $identificador_nomina, $tipo_nomina
-
-                //$registros_tabla = \App\TRA::where('nomina',$identificador_nomina)->count();
-                $registros_tabla = \App\DAT::count();
-
-                return ['status'=>true, 'total_regitros_tabla'=>$registros_tabla];
-            }
-        }catch(\Exception $e){
-            DB::connection()->getPdo()->rollback();
-            return ['status'=>false, 'error' => $e->getMessage(), 'linea'=>$e->getLine()];
-        }
-    }
-    */
 }

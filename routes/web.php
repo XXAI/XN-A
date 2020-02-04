@@ -15,6 +15,8 @@ Route::get('/resumen-nomina', function () {
     return view('welcome');
 });
 
-Route::get('/',function(){
-    return view('cargar_archivos');
-});
+Route::get('/',function(){ return view('cargar_archivos'); });
+
+Route::get('/desglose_batch/{batch}', 'DesgloseBatchController@verBatch');
+
+Route::get('/generar_layouts/{batch}', 'GenerarLayoutsController@generarPorBatch');
